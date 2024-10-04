@@ -40,8 +40,11 @@ and resquiggle the data.
 
 4) run the "NN_prediction_fromlongread.py" file. this will analyze the data created after running "Create_fulllength_testdata_from_tombo.py". Also here, there are a few variables
    to set in the "NN_prediction_fromlongread.py" file:
+
    3.1 ) path1 = path where the data are saved after running "Create_fulllength_testdata_from_tombo.py".
+
    3.2 ) save_path
+
    3.3 ) reference_path (file must be a .fasta file)
 
    after running "NN_prediction_fromlongread.py", a "Final_analysis.npz" file is created. The file contains the analysis of the files, which consists of the modification frequency
