@@ -23,10 +23,14 @@ for gpu in gpus:
 
 model = tf.keras.models.load_model("model/RNA_2inp-Inception_BCE_challange_3")
 
-#%%
+# ///// set the path here //////
 
 path = os.getcwd()
 path1 = path + "/folder_longread_preprocessed" # choose the folder where preprocessed test data were saved
+save_path = path + "/save_prediction" # save path where each prediction will be saved
+reference_path = "path/your_fasta.fasta"
+
+# /// general variables ////
 raw_seg_len = 800
 files_list = os.listdir(path1)
 spacer_pos = 0
@@ -34,16 +38,13 @@ max_seq_len = 80
 labels = 4 # labels is a reppresentation of "A,C,G,T"
 base_dict = { 1:"A", 2:"C", 3:"G", 4:"T"}
 N_miss = 0
-save_path = path + "/save_prediction" # save path where each prediction will be saved
 
 # ////// read the reference from a .fasta file ////////////
-
-reference_path = "path/your_fasta.fasta"
 
 references = list(SeqIO.parse(reference_path, "fasta"))
 reference = references[0].seq
 
-reference_track_mod = np.zeros([len(reference), 2])     
+reference_track_mod = np.zeros([len(reference), 2])
 
 for i in range (len(files_list)): #len(files_list)
 
