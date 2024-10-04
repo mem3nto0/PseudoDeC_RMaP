@@ -42,3 +42,6 @@ and resquiggle the data.
    after running "NN_prediction_fromlongread.py", a "Final_analysis.npz" file is created. The file contains the analysis of the files, which consists of the modification frequency
    on the reference positions.
 
+# Collaboration
+
+This work is a collaboration partnership with the group of Prof. Dr. Susanne Gerber, Uni Medical Center, Mainz. https://csg.uni-mainz.de/group-member/susanne-gerber/
