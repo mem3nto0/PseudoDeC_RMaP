@@ -31,7 +31,9 @@ and resquiggle the data.
 
          
      2.1) save_path
+   
      2.2) multi_fast5_path
+   
      2.3) .bam file path
 
      .bam file is necessary to obtain reference information. This file can be obtained after basecalling.
