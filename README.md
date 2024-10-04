@@ -23,7 +23,7 @@ PseudoDeC was created using:
 Here you can find the step to follow for running the PseudoDeC and to obtain a "Final_analysis.npz" file that contains the modification frequency of pseudouridine
 on the reference positions. Results can be plotted after loading the "Final_analysis.npz" and load the "reference_frequency" using the .file() function of .npz files.
 
-1) The first step for running PseudoDeC is to analyze the fasta5 files using Tombo. it is necessary for extracting signal-to-sequence information
+1) The first step for running PseudoDeC is to analyze the fasta5 files using Tombo (ONT). it is necessary for extracting signal-to-sequence information
 and resquiggle the data.
 
 2) run the python file "Create_fulllength_testdata_from_tombo.py". Before running the file, there are a few variables to set at the beginning of
