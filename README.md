@@ -26,9 +26,10 @@ on the reference positions. Results can be plotted after loading the "Final_anal
 1) The first step for running PseudoDeC is to analyze the fasta5 files using Tombo. it is necessary for extracting signal-to-sequence information
 and resquiggle the data.
 
-2) run the python file "Create_fulllength_testdata_from_tombo.py". Before running the file, there are a few variables to sed at the beginning of
+2) run the python file "Create_fulllength_testdata_from_tombo.py". Before running the file, there are a few variables to set at the beginning of
    the Python script here listed:
-     3)      
+
+         
      2.1) save_path
      2.2) multi_fast5_path
      2.3) .bam file path
