@@ -27,13 +27,14 @@ on the reference positions. Results can be plotted after loading the "Final_anal
 and resquiggle the data.
 
 2) run the python file "Create_fulllength_testdata_from_tombo.py". Before running the file, there are a few variables to sed at the beginning of the Python script here listed:
+     3)      
      2.1) save_path
      2.2) multi_fast5_path
      2.3) .bam file path
 
      .bam file is necessary to obtain reference information. This file can be obtained after basecalling.
 
-3) run the "NN_prediction_fromlongread.py" file. this will analyze the data created after running "Create_fulllength_testdata_from_tombo.py". Also here, there are a few variables
+4) run the "NN_prediction_fromlongread.py" file. this will analyze the data created after running "Create_fulllength_testdata_from_tombo.py". Also here, there are a few variables
    to set in the "NN_prediction_fromlongread.py" file:
    3.1 ) path1 = path where the data are saved after running "Create_fulllength_testdata_from_tombo.py".
    3.2 ) save_path
