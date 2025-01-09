@@ -4,7 +4,7 @@ PseudoDeC is a deep neural network tool created for the RMaP challenge to identi
 
 ![DLRN graphic window](PseudoDeC_figure.png)
 
-# Requirements
+## Requirements
 
 PseudoDeC was created using:
 
@@ -18,7 +18,7 @@ PseudoDeC was created using:
      Bio
      h5py
      
-# Protocol
+## Protocol
 
 Here you can find the step to follow for running the PseudoDeC and to obtain a "Final_analysis.npz" file that contains the modification frequency of pseudouridine
 on the reference positions. Results can be plotted after loading the "Final_analysis.npz" and load the "reference_frequency" using the .file() function of .npz files.
@@ -52,6 +52,10 @@ and resquiggle the data.
 
 Pipeline to make more user friendly is still under devolpement and will be available in the next update.
 
-# Collaboration
+#@ Collaboration
 
 This work is a collaboration partnership with the group of Prof. Dr. Susanne Gerber, Uni Medical Center, Mainz. https://csg.uni-mainz.de/group-member/susanne-gerber/
+
+## Credit and Licence
+
+This code is provided by Dr. Nicolo Alagna and the Computational Systems Genetics Group of the University Medical Center of Mainz. © 2024 All rights reserved.
